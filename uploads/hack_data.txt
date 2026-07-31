@@ -1,0 +1,24 @@
+🔐 UNCHIHA HEAD LOCK HUNKEY-34087 – DATA
+
+📌 THÔNG SỐ CẤU HÌNH:
+- Nhấn giữa: 2.0 giây
+- Thời gian quét: 2.0 giây
+- Lặp lại di chuyển: 2.5 giây
+- Hoạt động chạm: Tự động chạm 1.0 giây
+- Con trỏ trượt tinh chỉnh: 40
+- Tốc độ con trỏ: 50
+- Cử chỉ vuốt: 2 ngón
+
+📌 CÁC LỆNH AIMLOCK (Base64):
+- Lock Head: bG9jayBoZWFk
+- Lock Body: bG9jayBib2R5
+- Lock Neck: bG9jayBuZWNr
+- Lock Center: bG9jayBjZW50ZXI=
+- Lock Nearest: bG9jayBuZWFyZXN0
+- Unlock: dW5sb2Nr
+- Shoot: c2hvb3Q=
+
+📌 HƯỚNG DẪN SỬ DỤNG:
+1. Cài chứng chỉ UNCHIHA HEAD LOCK HUNKEY-34087
+2. Bật Trust trong Settings
+3. Tạo Shortcut và gán vào vuốt 2 ngón

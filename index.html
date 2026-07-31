@@ -1,0 +1,29 @@
+cd ~/head-hunkey-site
+
+cat > index.html <<'EOF'
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>HEADLOCK FILE SHARE</title>
+<style>
+body{background:#0d1324;color:#fff;font-family:Arial;padding:20px}
+a{display:block;margin:10px 0;padding:15px;background:#1d2948;color:#fff;text-decoration:none;border-radius:10px}
+</style>
+</head>
+<body>
+<h1>HEADLOCK FILE SHARE</h1>
+EOF
+
+for f in uploads/*; do
+    [ -f "$f" ] || continue
+    name=$(basename "$f")
+    echo "<a href=\"$f\" download>$name</a>" >> index.html
+done
+
+echo "</body></html>" >> index.html
+
+git add .
+git commit -m "Auto update file list"
+git push
+
